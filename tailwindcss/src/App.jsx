@@ -30,6 +30,37 @@ function App() {
           Lorem, ipsum dolor.
         </p>
       </div>
+
+      {/* card */}
+      <div className="mt-3">
+        <div className="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl">
+          <div className="md:flex">
+            <div>
+              <img
+                className="h-50 w-full object-cover md: h-full md:w-48"
+                src="https://images.pexels.com/photos/164501/pexels-photo-164501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+              />
+            </div>
+            <div className="p-8">
+              <div className="uppercase tracking-wide text-sm text-orange-600 font-semibold md:text-indigo-700">
+                My New Card
+              </div>
+              <a
+                className="block mt-1 text-lg font-medium text-black hover:text-orange-800 md:hover:text-blue-700"
+                href="#"
+              >
+                Tailwind Css is Amazing once you understand the{" "}
+                <span className="bg-yellow-500 p-[1px] px-[14px]">Power</span>{" "}
+                of it !
+              </a>
+              <p className=" mt-2 text-slate-600 text-base">
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
