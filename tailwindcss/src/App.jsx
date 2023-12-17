@@ -3,7 +3,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1> Tailwind css</h1>
       {/* <h1 className="text-white text-1xl mb-2">Hello Tailwind</h1> */}
       <div className="">
         <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
@@ -21,6 +20,15 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      <button className="bg-sky-500 mt-2 text-center font-bold text-white text-base p-2 rounded-lg hover:bg-white hover:text-black">
+        Buy Now
+      </button>
+      <div className="text-center my-4">
+        <p className="text-white sm:text-yellow-500 md:text-green-500 lg:text-purple-500 xl:text-orange-500 2xl:text-blue-600">
+          Lorem, ipsum dolor.
+        </p>
       </div>
     </>
   );
