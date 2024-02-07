@@ -1,5 +1,3 @@
-// import "./App.css";
-
 function App() {
   return (
     <>
@@ -19,6 +17,11 @@ function App() {
         <div className="md:hidden">
           <a className="text-4xl" href="#">
             &#8801;
+            <ul className="md:flex hidden font-semibold">
+              <li className="mx-4 cursor-pointer">Home</li>
+              <li className="mx-4 cursor-pointer">About</li>
+              <li className="mx-4 cursor-pointer">Contact</li>
+            </ul>
           </a>
         </div>
       </nav>
